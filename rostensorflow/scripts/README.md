@@ -18,8 +18,7 @@ image_recognition.py
 How to try
 
 ```bash
-$ roscore
-$ rosrun cv_camera cv_camera_node
-$ python image_recognition.py image:=/cv_camera/image_raw
+$ roslaunch rostensorflow rostensorflow.launch
+in the other terminal 
 $ rostopic echo /result
 ```
