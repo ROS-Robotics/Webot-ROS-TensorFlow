@@ -19,6 +19,6 @@ How to try
 
 ```bash
 $ roslaunch rostensorflow rostensorflow.launch
-in the other terminal 
+open other terminal ,and run 
 $ rostopic echo /result
 ```
